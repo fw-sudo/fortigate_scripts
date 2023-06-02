@@ -1,0 +1,30 @@
+config system interface
+edit "Lo1"
+set type loopback
+set alias "Monitoring"
+set vdom "root"
+set ip "10.0.0.1/32"
+set allowaccess "ping"
+next
+edit "Lo2"
+set type loopback
+set alias ""
+set vdom "root"
+set ip "10.0.0.2/32"
+set allowaccess "ping"
+next
+edit "Lo3"
+set type loopback
+set alias ""
+set vdom "root"
+set ip "10.0.0.3/32"
+set allowaccess "ping"
+next
+edit "Lo4"
+set type loopback
+set alias ""
+set vdom "root"
+set ip "10.0.0.4/32"
+set allowaccess "ping"
+next
+end
