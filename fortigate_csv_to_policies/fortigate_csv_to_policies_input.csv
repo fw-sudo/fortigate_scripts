@@ -1,0 +1,6 @@
+id;status;name;srcintf ;dstintf;srcaddr;dstaddr;service;action;schedule;nat;ippool;poolname;logtraffic;comment
+101;enable;Lo1_Lo4;Lo1;Lo4;10.0.1.1/32;10.0.4.4/32;ALL;accept;always;disable;;;utm;
+102;enable;Lo4_Lo1;Lo4;Lo1;10.0.4.4/32;10.0.1.1/32;ALL;accept;always;enable;enable;IPPool1;all;NATed
+0;enable;Lo1_Lo2;Lo1;Lo2;10.0.1.1/32;10.0.2.2/32;SSH;accept;always;disable;;;utm;
+0;enable;Lo2_Lo1;Lo2;Lo1;10.0.2.2/32;10.0.1.1/32;SSH;accept;always;enable;;;all;
+0;disable;Lo3_Lo2;Lo3;Lo2;10.0.3.3/32;10.0.2.2/32;ALL_ICMP;deny;always;disable;;;all;Deny_Ping_Test
