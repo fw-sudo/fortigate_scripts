@@ -20,12 +20,14 @@ with open('fortigate_csv_to_address_input.csv', 'r') as f:
         
         col0 = values[0].replace(N, '') # address
         col1 = values[1].replace(N, '') # subnet
+        col2 = values[2].replace(N, '') # comment
         
         # First line is not added to the output
         if row >= 1:    
             with open('fortigate_csv_to_address_output.txt', 'a') as f:
                 f.write('edit ' +  Q + col0 + Q + N)
                 f.write('set subnet ' + Q + col1 + Q + N)
+                f.write('set comment ' + Q + col2 + Q + N)
                 f.write('next' + N)     
         row = row + 1       
 
