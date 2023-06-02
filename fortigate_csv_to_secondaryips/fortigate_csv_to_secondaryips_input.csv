@@ -1,0 +1,7 @@
+port;secondaryip;allowaccess
+Lo1;10.11.1.1/32;ping
+Lo1;10.12.1.1/32;ping
+Lo1;10.13.1.1/32;ping
+Lo2;10.14.1.1/32;ping
+Lo2;10.15.1.1/32;ping
+Lo3;10.16.1.1/32;ping
