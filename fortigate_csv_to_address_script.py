@@ -10,7 +10,7 @@ with open('fortigate_csv_to_address_output.txt', 'w') as f:
 with open('fortigate_csv_to_address_output.txt', 'a') as f:
     f.write('config firewall address' + N)
 
-### Read CSV and assign each column to a variable
+### Read input CSV and assign each column to a variable
 with open('fortigate_csv_to_address_input.csv', 'r') as f:
     for line in f:
         values = line.split(';')        
