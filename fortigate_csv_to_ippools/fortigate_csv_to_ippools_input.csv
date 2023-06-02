@@ -1,0 +1,5 @@
+ippool;startip;endip;comment
+IPPool1;172.16.16.2;172.16.16.2;MPLS1
+IPPool2;172.16.16.3;172.16.16.3;MPLS2
+IPPool3;172.16.16.4;172.16.16.4;MPLS3
+IPPool4;10.0.0.2;10.0.0.254;DMZ

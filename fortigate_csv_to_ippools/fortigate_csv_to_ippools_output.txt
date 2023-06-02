@@ -1,0 +1,26 @@
+config firewall ippool
+edit "IPPool1"
+set type overload
+set startip "172.16.16.2"
+set endip "172.16.16.2"
+set comment "MPLS1"
+next
+edit "IPPool2"
+set type overload
+set startip "172.16.16.3"
+set endip "172.16.16.3"
+set comment "MPLS2"
+next
+edit "IPPool3"
+set type overload
+set startip "172.16.16.4"
+set endip "172.16.16.4"
+set comment "MPLS3"
+next
+edit "IPPool4"
+set type overload
+set startip "10.0.0.2"
+set endip "10.0.0.254"
+set comment "DMZ"
+next
+end
