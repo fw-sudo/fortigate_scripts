@@ -8,7 +8,7 @@ with open('fortigate_csv_to_routes_output.txt', 'w') as f:
 
 ### Append first line to output
 with open('fortigate_csv_to_routes_output.txt', 'a') as f:
-    f.write('config firewall address' + N)
+    f.write('config router static' + N)
 
 ### Read input CSV and assign each column to a variable
 with open('fortigate_csv_to_routes_input.csv', 'r') as f:
