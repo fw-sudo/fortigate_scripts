@@ -1,0 +1,42 @@
+config firewall address
+edit "VLAN_10"
+set subnet "192.168.10.0/24"
+set comment "Branch10"
+next
+edit "VLAN_20"
+set subnet "192.168.20.0/24"
+set comment "Branch20"
+next
+edit "VLAN_30"
+set subnet "192.168.30.0/24"
+set comment "Branch30"
+next
+edit "VLAN_40"
+set subnet "192.168.40.0/24"
+set comment "Branch40"
+next
+edit "VLAN_50"
+set subnet "192.168.50.0/24"
+set comment "Branch50"
+next
+edit "VLAN_60"
+set subnet "192.168.60.0/24"
+set comment "Branch60"
+next
+edit "VLAN_70"
+set subnet "192.168.70.0/24"
+set comment "Branch70"
+next
+edit "VLAN_80"
+set subnet "192.168.80.0/24"
+set comment "Branch80"
+next
+edit "VLAN_90"
+set subnet "192.168.90.0/24"
+set comment "Branch90"
+next
+edit "VLAN_100"
+set subnet "192.168.100.0/24"
+set comment "Branch100"
+next
+end
