@@ -1,0 +1,18 @@
+config firewall service custom
+edit "UDP_443"
+set udp-portrange 443-443
+set comment "QUIC"
+next
+edit "TCP_10443"
+set tcp-portrange 10443-10443
+set comment "Admin_10443"
+next
+edit "TCP_15443"
+set tcp-portrange 15443-15443
+set comment "VDOM_SSL"
+next
+edit "UDP_4000-5000"
+set udp-portrange 4000-5000
+set comment ""
+next
+end

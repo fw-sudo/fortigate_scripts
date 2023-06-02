@@ -1,0 +1,5 @@
+service;protocol;startport;endport;comment
+UDP_443;udp;443;443;QUIC
+TCP_10443;tcp;10443;10443;Admin_10443
+TCP_15443;tcp;15443;15443;VDOM_SSL
+UDP_4000-5000;udp;4000;5000;
