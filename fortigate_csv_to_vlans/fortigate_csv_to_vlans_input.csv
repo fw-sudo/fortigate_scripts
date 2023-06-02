@@ -1,0 +1,11 @@
+vlan;status;vlanid;alias;vdom;interface;ip;allowaccess
+VLAN_10;up;10;Branch10;root;port1;192.168.10.1/24;ping
+VLAN_20;up;20;Branch20;root;port1;192.168.20.1/24;ping 
+VLAN_30;down;30;Branch30;root;port1;192.168.30.1/24;ping
+VLAN_40;up;40;Branch40;root;port1;192.168.40.1/24;ping 
+VLAN_50;up;50;Branch50;root;port1;192.168.50.1/24;ping
+VLAN_60;down;60;Branch60;root;port1;192.168.60.1/24;ping
+VLAN_70;up;70;Branch70;root;port1;192.168.70.1/24;ping
+VLAN_80;up;80;Branch80;root;port1;192.168.80.1/24;ping 
+VLAN_90;up;90;Branch90;root;port1;192.168.90.1/24;ping
+VLAN_100;down;100;Branch100;root;port1;192.168.100.1/24;ping
