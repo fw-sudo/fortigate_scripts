@@ -1,0 +1,74 @@
+config firewall vip
+edit "VIP1"
+set portforward enable
+set extip "172.16.16.2"
+set mappedip "10.0.0.10"
+set protocol"tcp"
+set extport "80"
+set mappedport "80"
+set comment "HTTP"
+next
+edit "VIP2"
+set portforward enable
+set extip "172.16.16.2"
+set mappedip "10.0.0.10"
+set protocol"tcp"
+set extport "443"
+set mappedport "443"
+set comment "HTTPS"
+next
+edit "VIP3"
+set portforward enable
+set extip "172.16.16.2"
+set mappedip "10.0.0.10"
+set protocol"tcp"
+set extport "22"
+set mappedport "22"
+set comment "SSH"
+next
+edit "VIP4"
+set portforward enable
+set extip "172.16.16.2"
+set mappedip "10.0.0.10"
+set protocol"tcp"
+set extport "8443"
+set mappedport "8443"
+set comment ""
+next
+edit "VIP5"
+set portforward enable
+set extip "172.16.16.2"
+set mappedip "10.0.0.10"
+set protocol"tcp"
+set extport "10443"
+set mappedport "10443"
+set comment ""
+next
+edit "VIP6"
+set portforward enable
+set extip "172.16.16.2"
+set mappedip "10.0.0.10"
+set protocol"tcp"
+set extport "15443"
+set mappedport "15443"
+set comment ""
+next
+edit "VIP7"
+set portforward enable
+set extip "172.16.16.2"
+set mappedip "10.0.0.10"
+set protocol"tcp"
+set extport "5060"
+set mappedport "5060"
+set comment "SIP_TCP"
+next
+edit "VIP8"
+set portforward enable
+set extip "172.16.16.2"
+set mappedip "10.0.0.10"
+set protocol"udp"
+set extport "5060"
+set mappedport "5060"
+set comment "SIP_UDP"
+next
+end
