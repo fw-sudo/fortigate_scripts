@@ -1,0 +1,5 @@
+loopback;status;alias;vdom;ip;allowaccess
+Lo1;up;Monitoring;root;10.0.0.1/32;ping
+Lo2;up;;root;10.0.0.2/32;ping
+Lo3;up;;root;10.0.0.3/32;ping
+Lo4;down;;root;10.0.0.4/32;ping
