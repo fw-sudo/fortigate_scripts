@@ -1,0 +1,54 @@
+config system dhcp server
+edit 1
+config reserved-address
+edit 0
+set mac "aa:aa:aa:aa:aa:a1"
+set ip "192.168.70.250"
+set description "Printer1"
+end
+end
+config system dhcp server
+edit 1
+config reserved-address
+edit 0
+set mac "aa:aa:aa:aa:aa:a2"
+set ip "192.168.70.251"
+set description "Printer2"
+end
+end
+config system dhcp server
+edit 1
+config reserved-address
+edit 0
+set mac "aa:aa:aa:aa:aa:a3"
+set ip "192.168.70.252"
+set description "Printer3"
+end
+end
+config system dhcp server
+edit 2
+config reserved-address
+edit 0
+set mac "cc:cc:cc:cc:cc:c1"
+set ip "192.168.60.250"
+set description "Camera1"
+end
+end
+config system dhcp server
+edit 2
+config reserved-address
+edit 0
+set mac "cc:cc:cc:cc:cc:c2"
+set ip "192.168.60.251"
+set description "Camera2"
+end
+end
+config system dhcp server
+edit 2
+config reserved-address
+edit 0
+set mac "cc:cc:cc:cc:cc:c3"
+set ip "192.168.60.252"
+set description "Camera3"
+end
+end

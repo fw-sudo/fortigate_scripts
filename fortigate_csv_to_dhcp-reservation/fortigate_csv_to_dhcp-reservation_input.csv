@@ -1,0 +1,7 @@
+dhcpserver;mac;ip;description
+1;aa:aa:aa:aa:aa:a1;192.168.70.250;Printer1
+1;aa:aa:aa:aa:aa:a2;192.168.70.251;Printer2
+1;aa:aa:aa:aa:aa:a3;192.168.70.252;Printer3
+2;cc:cc:cc:cc:cc:c1;192.168.60.250;Camera1
+2;cc:cc:cc:cc:cc:c2;192.168.60.251;Camera2
+2;cc:cc:cc:cc:cc:c3;192.168.60.252;Camera3
