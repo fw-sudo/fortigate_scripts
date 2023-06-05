@@ -1,7 +1,7 @@
 ENGLISH
 
-# All these scripts are for public use, but if they are published elsewhere
-# please mention this GitHub page and do not appropriate them by modifying 2 lines of code
+# All these scripts are for public use, but if they are published elsewhere.
+# please mention this GitHub page and do not appropriate them by modifying 2 lines of code.
 
 # To use the scripts named csv_to_fortigate_xxx you need to download the .py and the .csv files in the same directory, the .txt is optional,
 # later modifiy the .csv acoording of your needs and inside the directory (cd into cmd on Windows) execute the script (.py),
