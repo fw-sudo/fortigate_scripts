@@ -3,7 +3,7 @@ ENGLISH
 # All these scripts are for public use, but if they are published elsewhere
 # please mention this GitHub page and do not appropriate them by modifying 2 lines of code
 # all this scripts are in Python, you need to installed previously (https://www.python.org/downloads/)
-# I will update this Readme file if new instructions are needed.
+# I will update this Readme file if new instructions are needed
 
 CSV_TO
 # To use the scripts named xxx_csv_to_xxx you need to download
@@ -25,7 +25,7 @@ ESPAÑOL
 # Todos estos scripts son para uso público, pero si están publicados en otro lugar
 # favor mencione esta página de GitHub y no se apropie de ellos modificando 2 líneas de código
 # Todos estos scripts están en Python, necesitas instalarlo previamente (https://www.python.org/downloads/)
-# Actualizaré este archivo Léame si se necesitan nuevas instrucciones.
+# Actualizaré este archivo Readme si se necesitan nuevas instrucciones
 
 CSV_TO
 # Para usar los scripts llamados xxx_csv_to_xxx necesita descargar
