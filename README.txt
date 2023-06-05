@@ -2,10 +2,11 @@ ENGLISH
 
 # All these scripts are for public use, but if they are published elsewhere.
 # please mention this GitHub page and do not appropriate them by modifying 2 lines of code.
+# all this scripts are in Python, you need to installed previously (https://www.python.org/downloads/)
 
 CSV_TO
 # To use the scripts named xxx_csv_to_xxx you need to download the .py and the .csv files in the same directory, the .txt is optional,
-# later modifiy the .csv acoording of your needs and inside the directory (cd into cmd on Windows) execute the script (.py),
+# later modifiy the .csv acoording of your needs and inside the directory (cd into cmd on Windows) execute the script (.py)
 # after this you get the output file, this contain the config neccesary to create the objects in the device,
 # please check it out the config before copy and paste in the device, I'm not responsible if there is a problem with the config.
 # note that each new execution of the .py overwrites the txt (output) file.
@@ -18,6 +19,7 @@ ESPAÑOL
 
 # Todos estos scripts son para uso público, pero si están publicados en otro lugar
 # favor mencione esta página de GitHub y no se apropie de ellos modificando 2 líneas de código
+# Todos estos scripts están en Python, necesitas instalarlo previamente (https://www.python.org/downloads/)
 
 CSV_TO
 # Para usar los scripts llamados xxx_csv_to_xxx necesita descargar los archivos .py y .csv en el mismo directorio, el .txt es opcional,
