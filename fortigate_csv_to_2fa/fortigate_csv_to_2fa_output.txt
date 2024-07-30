@@ -1,0 +1,18 @@
+config user local
+edit "juan"
+set two-factor email
+set email-to "juan@asd.cl"
+next
+edit "jose"
+set two-factor email
+set email-to "jose@asd.cl"
+next
+edit "miguel"
+set two-factor email
+set email-to "miguel@asd.cl"
+next
+edit "samuel"
+set two-factor email
+set email-to "samuel@asd.cl"
+next
+end
